@@ -348,15 +348,15 @@ bar {
 
     colors {
         background #181818
-        statusline #F9FAF9
+        statusline #FFFFFF
         separator  #181818
 
 #                     border  backgr. text
-        focused_workspace  #4A4A4A #4A4A4A #FFFFFF
-        active_workspace   #4A4A4A #181818 #FFFFFF
+        focused_workspace  #FFFFFF #FFFFFF #181818
+        active_workspace   #FFFFFF #181818 #FFFFFF
         inactive_workspace #181818 #181818 #FFFFFF
-        binding_mode       #4A4A4A #181818 #FFFFFF
-        urgent_workspace   #4A4A4A #181818 #FFFFFF
+        binding_mode       #FFFFFF #181818 #FFFFFF
+        urgent_workspace   #FFFFFF #181818 #FFFFFF
     }
 }
 
@@ -369,11 +369,11 @@ bindsym $mod+m bar mode toggle
 # My colors
 client.background	#181818	
 
-client.focused         	#181818	  	#181818	$foreground	#3E3E3E	  	#3E3E3E
-client.unfocused       	#181818		#181818	$foreground	#181818		#181818
-client.focused_inactive	#181818		#181818	$foreground	#181818		#181818
-client.urgent		    #181818		#181818	$foreground #181818		#181818
-client.placeholder	    #181818		#181818	$foreground	#181818		#181818
+client.focused         	    #181818	  	#181818	$foreground	#FFFFFF	  	#FFFFFF
+client.unfocused            #181818		#181818	$foreground	#909090		#909090
+client.focused_inactive	    #181818		#181818	$foreground	#909090		#909090
+client.urgent		    #181818		#181818	$foreground     #909090		#909090
+client.placeholder	    #181818		#181818	$foreground	#909090		#909090
 
 
 #############################
@@ -381,8 +381,8 @@ client.placeholder	    #181818		#181818	$foreground	#181818		#181818
 #############################
 
 # Set inner/outer gaps
-gaps inner 5
-gaps outer 5
+gaps inner 20
+gaps outer 0
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>

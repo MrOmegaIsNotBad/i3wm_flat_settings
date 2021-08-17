@@ -1,6 +1,6 @@
 [global]
     frame_width = 2
-    frame_color = "#4A4A4A"
+    frame_color = "#FFFFFF"
     
     font = Hack Bold 10
     

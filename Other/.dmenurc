@@ -12,10 +12,10 @@ DMENU_NB="#181818"
 DMENU_NF="#ffffff"
 
 ## background colour for selected menu-items
-DMENU_SB="#3E3E3E"
+DMENU_SB="#ffffff"
 
 ## textcolour for selected menu-items
-DMENU_SF="#ffffff"
+DMENU_SF="#181818"
 
 ## command for the terminal application to be used:
 TERMINAL_CMD="terminal -e"

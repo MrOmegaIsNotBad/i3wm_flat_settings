@@ -44,6 +44,7 @@ cp -R .icons ~
 
 cp -R .themes ~
 
+cp -R .vim ~
 
 #=============================
 
@@ -70,7 +71,7 @@ cp -R Other/.vimrc ~
 sudo pacman -Sy
 sudo pacman -S gvim vim htop tmux telegram-desktop discord flameshot pulseaudio pavucontrol rofi xfce4-terminal redshift thunar xfce4-clipman-plugin firefox mpv
 
-yay picom-ibhagwan-git
+#yay picom-ibhagwan-git
 
 sudo snap install authy --beta
 sudo snap install sublime-text --classic
