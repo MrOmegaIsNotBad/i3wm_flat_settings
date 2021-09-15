@@ -13,9 +13,9 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-for_window [class="^.*"] border pixel 2
-new_window pixel 2
-new_float pixel 2
+for_window [class="^.*"] border pixel 0
+new_window pixel 0
+new_float pixel 0
 
 #========= Border ========
 
@@ -259,7 +259,7 @@ mode "resize" {
         bindsym j resize shrink width 5 px or 5 ppt
         bindsym k resize grow height 5 px or 5 ppt
         bindsym l resize shrink height 5 px or 5 ppt
-        bindsym odiaeresis resize grow width 5 px or 5 ppt
+        bindsym h resize grow width 5 px or 5 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 8 px or 8 ppt
@@ -380,7 +380,7 @@ client.placeholder	    #181818		#181818	$foreground	#909090		#909090
 #############################
 
 # Set inner/outer gaps
-gaps inner 20
+gaps inner 5
 gaps outer 0
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.

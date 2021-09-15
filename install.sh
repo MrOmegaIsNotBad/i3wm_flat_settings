@@ -25,6 +25,8 @@ cp -R .config/redshift ~/.config
 
 cp -R .config/picom.conf ~/.config
 
+echo "gtk-decoration-layout=menu:" >> ~/.config/gtk-3.0/settings.ini
+
 #=============================
 
 #Wallpaper
