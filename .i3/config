@@ -13,9 +13,9 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-for_window [class="^.*"] border pixel 0
-new_window pixel 0
-new_float pixel 0
+for_window [class="^.*"] border pixel 2
+new_window pixel 2
+new_float pixel 2
 
 #========= Border ========
 
@@ -33,8 +33,8 @@ bindsym $mod+y border pixel 2
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-#font xft:Droid Sans Mono Bold 10
-font xft:Hack bold 10
+#font xft:Source Code Pro Bold9
+font xft:Hack Bold 10
 #font xft:monofur Regular 13
 
 
@@ -347,15 +347,15 @@ bar {
 
     colors {
         background #181818
-        statusline #FFFFFF
+        statusline #CCCCCC
         separator  #181818
 
 #                     border  backgr. text
-        focused_workspace  #FFFFFF #FFFFFF #181818
-        active_workspace   #FFFFFF #181818 #FFFFFF
-        inactive_workspace #181818 #181818 #FFFFFF
-        binding_mode       #FFFFFF #181818 #FFFFFF
-        urgent_workspace   #FFFFFF #181818 #FFFFFF
+        focused_workspace  #CCCCCC #CCCCCC #181818
+        active_workspace   #CCCCCC #181818 #CCCCCC
+        inactive_workspace #181818 #181818 #CCCCCC
+        binding_mode       #CCCCCC #181818 #CCCCCC
+        urgent_workspace   #CCCCCC #181818 #CCCCCC
     }
 }
 
@@ -368,7 +368,7 @@ bindsym $mod+m bar mode toggle
 # My colors
 client.background	#181818	
 
-client.focused         	    #181818	  	#181818	$foreground	#FFFFFF	  	#FFFFFF
+client.focused         	    #181818	  	#181818	$foreground	#CCCCCC	  	#CCCCCC
 client.unfocused            #181818		#181818	$foreground	#909090		#909090
 client.focused_inactive	    #181818		#181818	$foreground	#909090		#909090
 client.urgent		    #181818		#181818	$foreground     #909090		#909090
@@ -380,7 +380,7 @@ client.placeholder	    #181818		#181818	$foreground	#909090		#909090
 #############################
 
 # Set inner/outer gaps
-gaps inner 5
+gaps inner 10
 gaps outer 0
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.

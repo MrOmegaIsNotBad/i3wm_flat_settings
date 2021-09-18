@@ -1,6 +1,6 @@
 [global]
     frame_width = 2
-    frame_color = "#FFFFFF"
+    frame_color = "#CCCCCC"
     
     font = Hack Bold 10
     
@@ -183,12 +183,12 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#181818"
-    foreground = "#FFFFFF"
+    foreground = "#CCCCCC"
     timeout = 10
 
 [urgency_normal]
     background = "#181818"
-    foreground = "#FFFFFF"
+    foreground = "#CCCCCC"
     timeout = 10
 
 [urgency_critical]

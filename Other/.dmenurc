@@ -9,10 +9,10 @@ DMENU_FN="Hack-10:Bold"
 DMENU_NB="#181818"
 
 ## textcolour for unselected menu-items
-DMENU_NF="#ffffff"
+DMENU_NF="#cccccc"
 
 ## background colour for selected menu-items
-DMENU_SB="#ffffff"
+DMENU_SB="#cccccc"
 
 ## textcolour for selected menu-items
 DMENU_SF="#181818"
