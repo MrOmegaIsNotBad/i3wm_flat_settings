@@ -2,7 +2,7 @@
     frame_width = 2
     frame_color = "#CCCCCC"
     
-    font = Hack Bold 10
+    font = monospace bold 10
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
