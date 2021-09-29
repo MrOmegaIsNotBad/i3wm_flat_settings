@@ -369,11 +369,11 @@ bindsym $mod+m bar mode toggle
 # My colors
 client.background	#181818	
 
-client.focused         	#18181888	  	#18181888	$foreground	#CCCCCC	  	#CCCCCC88
-client.unfocused        #18181888		#18181888	$foreground	#909090		#90909088
-client.focused_inactive	#18181888		#18181888	$foreground	#909090		#90909088
-client.urgent		    #18181888		#18181888	$foreground #909090		#90909088
-client.placeholder	    #18181888		#18181888	$foreground	#909090		#90909088
+client.focused         	#18181855	  	#18181855	$foreground	#CCCCCC55	  	#CCCCCC55
+client.unfocused        #18181855		#18181855	$foreground	#90909055		#90909055
+client.focused_inactive	#18181855		#18181855	$foreground	#90909055		#90909055
+client.urgent		    #18181855		#18181855	$foreground #90909055		#90909055
+client.placeholder	    #18181855		#18181855	$foreground	#90909055		#90909055
 
 
 #############################
