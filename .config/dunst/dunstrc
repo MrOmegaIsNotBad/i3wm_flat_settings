@@ -1,6 +1,6 @@
 [global]
     frame_width = 2
-    frame_color = "#CCCCCC"
+    frame_color = "#909090"
     
     font = monospace bold 10
     
