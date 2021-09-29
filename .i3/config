@@ -25,7 +25,7 @@ new_float pixel 2
 
 
 # Hide borders
-#hide_edge_borders none
+hide_edge_borders both
 
 # change borders
 bindsym $mod+u border pixel 0
@@ -369,11 +369,11 @@ bindsym $mod+m bar mode toggle
 # My colors
 client.background	#181818	
 
-client.focused         	    #181818	  	#181818	$foreground	#CCCCCC	  	#CCCCCC
-client.unfocused            #181818		#181818	$foreground	#909090		#909090
-client.focused_inactive	    #181818		#181818	$foreground	#909090		#909090
-client.urgent		    #181818		#181818	$foreground     #909090		#909090
-client.placeholder	    #181818		#181818	$foreground	#909090		#909090
+client.focused         	#18181888	  	#18181888	$foreground	#CCCCCC	  	#CCCCCC88
+client.unfocused        #18181888		#18181888	$foreground	#909090		#90909088
+client.focused_inactive	#18181888		#18181888	$foreground	#909090		#90909088
+client.urgent		    #18181888		#18181888	$foreground #909090		#90909088
+client.placeholder	    #18181888		#18181888	$foreground	#909090		#90909088
 
 
 #############################
