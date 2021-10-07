@@ -13,24 +13,14 @@ sudo cp Other/IDE /bin
 
 #======== Config App ==========
 
-cp -R .config/Start.sh ~/.config/autostart
-
-cp -R .config/dunst ~/.config
-
-cp -R .config/morc_menu ~/.config
-
-cp -R .config/i3status ~/.config
-
-cp -R .config/redshift ~/.config
-
-cp -R .config/picom.conf ~/.config
+cp -R .config/* ~/.config
 
 echo "gtk-decoration-layout=menu:" >> ~/.config/gtk-3.0/settings.ini
 
 #=============================
 
 #Wallpaper
-cp wallpaper.png ~/Изображения
+cp wallpaper/* ~/Изображения
 
 
 # Set Login Wallpaper
@@ -52,17 +42,7 @@ cp -R .vim ~
 
 #===== Config Home ===========
 
-cp -R Other/.dmenurc ~
-
-cp -R Other/.dmrc ~
-
-cp -R Other/.extend.Xresources ~
-
-cp -R Other/.Xresources ~
-
-cp -R Other/.tmux.conf ~
-
-cp -R Other/.vimrc ~
+cp -R Other/* ~
 
 #=============================
 
