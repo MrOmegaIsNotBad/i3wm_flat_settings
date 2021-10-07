@@ -8,13 +8,13 @@
 
 general {
         colors = true
-        interval = 1
+        interval = 2
 }
 
-#order += "disk /"
+order += "disk /"
 #order += "load"
-#order += "cpu_usage"
-#order += "memory"
+order += "cpu_usage"
+order += "memory"
 #order += "battery 0"
 order += "tztime local"
 
@@ -56,5 +56,5 @@ memory {
 }
 #                                                                                         F   
 tztime local {                       
-		format = "%H:%M:%S                                                                                                        "                                               
+		format = "%d.%m.%Y %H:%M:%S"                                             
 }
