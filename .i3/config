@@ -222,6 +222,7 @@ for_window [class="skypeforlinux"] floating enable border none
 # switch to workspace with urgent window automatically
 
 bindsym $mod+F8 sticky enable
+bindsym $mod+Shift+F8 sticky disable 
 
 for_window [urgent=latest] focus
 
