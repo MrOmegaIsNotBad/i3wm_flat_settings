@@ -51,12 +51,11 @@ cp -R Other/* ~
 
 
 sudo pacman -Sy
-sudo pacman -S gvim vim htop tmux telegram-desktop flameshot pulseaudio pavucontrol xfce4-terminal redshift thunar xfce4-clipman-plugin mpv
+sudo pacman -S gvim vim htop tmux telegram-desktop discord flameshot pulseaudio pavucontrol xfce4-terminal redshift thunar xfce4-clipman-plugin mpv atom
 
-#yay picom-ibhagwan-git
+yay picom-ibhagwan-git
 
 sudo snap install authy --beta
-sudo snap install sublime-text --classic
 
 cd ~ && sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
