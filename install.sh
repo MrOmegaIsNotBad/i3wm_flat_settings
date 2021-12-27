@@ -42,7 +42,12 @@ cp -R .vim ~
 
 #===== Config Home ===========
 
-cp -R Other/* ~
+cp -R Other/.Xresources
+cp -R Other/.dmenurc
+cp -R Other/.dmrc
+cp -R Other/.extend.Xresources
+cp -R Other/.tmux.conf 
+cp -R Other/.vimrc
 
 #=============================
 
