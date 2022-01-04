@@ -1,6 +1,6 @@
 #
 # ~/.dmenurc
-#
+
 
 ## define the font for dmenu to be used
 DMENU_FN="monospace-10:Bold"
@@ -9,10 +9,10 @@ DMENU_FN="monospace-10:Bold"
 DMENU_NB="#181818"
 
 ## textcolour for unselected menu-items
-DMENU_NF="#cccccc"
+DMENU_NF="#909090"
 
 ## background colour for selected menu-items
-DMENU_SB="#cccccc"
+DMENU_SB="#909090"
 
 ## textcolour for selected menu-items
 DMENU_SF="#181818"

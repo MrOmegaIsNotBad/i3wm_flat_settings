@@ -42,12 +42,12 @@ cp -R .vim ~
 
 #===== Config Home ===========
 
-cp -R Other/.Xresources
-cp -R Other/.dmenurc
-cp -R Other/.dmrc
-cp -R Other/.extend.Xresources
-cp -R Other/.tmux.conf 
-cp -R Other/.vimrc
+cp -R Other/.Xresources ~
+cp -R Other/.dmenurc ~
+cp -R Other/.dmrc ~
+cp -R Other/.extend.Xresources ~
+cp -R Other/.tmux.conf ~
+cp -R Other/.vimrc ~
 
 #=============================
 
@@ -63,7 +63,7 @@ sudo systemctl disable lightdm
 sudo pacman -Sy
 sudo pacman -S gvim vim htop tmux telegram-desktop discord flameshot pulseaudio pavucontrol xfce4-terminal redshift thunar xfce4-clipman-plugin mpv atom
 
-yay picom-ibhagwan-git
+#yay picom-ibhagwan-git
 
 sudo snap install authy --beta
 
