@@ -25,9 +25,9 @@ cp wallpaper/* ~/Изображения
 
 # Set Login Wallpaper
 
-sudo cp wallpaper.png /usr/share/backgrounds/
-sudo rm /usr/share/backgrounds/i3_default_background.jpg
-sudo mv /usr/share/backgrounds/wallpaper.png /usr/share/backgrounds/i3_default_background.jpg 
+#sudo cp wallpaper.png /usr/share/backgrounds/
+#sudo rm /usr/share/backgrounds/i3_default_background.jpg
+#sudo mv /usr/share/backgrounds/wallpaper.png /usr/share/backgrounds/i3_default_background.jpg 
 
 #===== Themes ================
 
@@ -61,7 +61,7 @@ sudo systemctl disable lightdm
 
 
 sudo pacman -Sy
-sudo pacman -S gvim vim htop tmux telegram-desktop discord flameshot pulseaudio pavucontrol xfce4-terminal redshift thunar xfce4-clipman-plugin mpv atom
+sudo pacman -S gvim vim nvim htop tmux telegram-desktop discord flameshot pulseaudio pavucontrol xfce4-terminal redshift thunar xfce4-clipman-plugin mpv atom
 
 #yay picom-ibhagwan-git
 

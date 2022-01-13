@@ -13,9 +13,9 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-for_window [class="^.*"] border pixel 2
-new_window pixel 2
-new_float pixel 2
+for_window [class="^.*"] border pixel 3
+new_window pixel 3
+new_float pixel 3
 
 #========= Border ========
 
@@ -59,7 +59,7 @@ bindsym $mod+z exec --no-startup-id morc_menu
 
 # Start Applications
 bindsym $mod+Ctrl+b exec xfce4-terminal -e 'bmenu'
-bindsym $mod+F1 exec LibreWolf.AppImage
+bindsym $mod+F1 exec librewolf
 bindsym $mod+F2 exec thunar
 #bindsym $mod+F2 exec xfce4-terminal -e 'ranger'
 #bindsym $mod+Shift+F3 exec gksu pcmanfm
@@ -351,16 +351,16 @@ bar {
 	strip_workspace_numbers yes
 
     colors {
-        background #181818
+        background #121212
         statusline #909090
-        separator  #181818
+        separator  #121212
 
 #                     border  backgr. text
-        focused_workspace  #909090 #909090 #181818
-        active_workspace   #909090 #181818 #909090
-        inactive_workspace #181818 #181818 #909090
-        binding_mode       #909090 #181818 #909090
-        urgent_workspace   #909090 #181818 #909090
+        focused_workspace  #909090 #909090 #121212
+        active_workspace   #909090 #121212 #909090
+        inactive_workspace #121212 #121212 #909090
+        binding_mode       #909090 #121212 #909090
+        urgent_workspace   #909090 #121212 #909090
     }
 }
 
@@ -371,13 +371,13 @@ bindsym $mod+m bar mode toggle
 # Theme colors
 # class                 border  	backgr. 	text    	indic.  	child_border
 # My colors
-client.background	#181818
+client.background	#121212
 
-client.focused         	#СССССС	  	#181818 	#909090	#909090 	  	#909090
-client.unfocused        #494949		#181818 	#909090	#494949 		#494949
-client.focused_inactive	#494949		#181818 	#909090	#494949 		#494949
-client.urgent		    #494949		#181818 	#909090 #494949 		#494949
-client.placeholder	    #494949		#181818	    #909090	#494949 		#494949
+client.focused         	#СССССС	  	#121212 	#909090	#909090 	  	#909090
+client.unfocused        #494949		#121212 	#909090	#494949 		#494949
+client.focused_inactive	#494949		#121212 	#909090	#494949 		#494949
+client.urgent		    #494949		#121212 	#909090 #494949 		#494949
+client.placeholder	    #494949		#121212	    #909090	#494949 		#494949
 
 
 #############################
