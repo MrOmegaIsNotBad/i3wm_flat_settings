@@ -351,16 +351,16 @@ bar {
 	strip_workspace_numbers yes
 
     colors {
-        background #181818
+        background #121212
         statusline #909090
-        separator  #181818
+        separator  #121212
 
 #                     border  backgr. text
-        focused_workspace  #909090 #909090 #181818
-        active_workspace   #909090 #181818 #909090
-        inactive_workspace #181818 #181818 #909090
-        binding_mode       #909090 #181818 #909090
-        urgent_workspace   #909090 #181818 #909090
+        focused_workspace  #909090 #909090 #121212
+        active_workspace   #909090 #121212 #909090
+        inactive_workspace #121212 #121212 #909090
+        binding_mode       #909090 #121212 #909090
+        urgent_workspace   #909090 #121212 #909090
     }
 }
 
@@ -373,11 +373,11 @@ bindsym $mod+m bar mode toggle
 # My colors
 client.background	#181818
 
-client.focused         	#СССССС	  	#181818 	#909090	#909090 	  	#909090
-client.unfocused        #494949		#181818 	#909090	#494949 		#494949
-client.focused_inactive	#494949		#181818 	#909090	#494949 		#494949
-client.urgent		    #494949		#181818 	#909090 #494949 		#494949
-client.placeholder	    #494949		#181818	    #909090	#494949 		#494949
+client.focused         	#СССССС	  	#121212 	#909090	#909090 	  	#555555
+client.unfocused        #494949		#121212 	#909090	#494949 		#393939
+client.focused_inactive	#494949		#121212 	#909090	#494949 		#393939
+client.urgent		    #494949		#121212 	#909090 #494949 		#393939
+client.placeholder	    #494949		#121212	    #909090	#494949 		#393939
 
 
 #############################
