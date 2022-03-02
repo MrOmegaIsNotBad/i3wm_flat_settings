@@ -9,7 +9,6 @@ cp -R .i3 ~
 # bin 
 
 sudo cp SetSettings.sh /bin
-sudo cp Other/IDE /bin
 
 #======== Config App ==========
 
@@ -42,12 +41,7 @@ cp -R .vim ~
 
 #===== Config Home ===========
 
-cp -R Other/.Xresources ~
-cp -R Other/.dmenurc ~
-cp -R Other/.dmrc ~
-cp -R Other/.extend.Xresources ~
-cp -R Other/.tmux.conf ~
-cp -R Other/.vimrc ~
+cp -R Other/* ~
 
 #=============================
 
