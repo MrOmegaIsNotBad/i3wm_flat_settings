@@ -9,7 +9,7 @@ DMENU_FN="monospace-10:Bold"
 DMENU_NB="#14161b"
 
 ## textcolour for unselected menu-items
-DMENU_NF="#3498db"
+DMENU_NF="#cccccc"
 
 ## background colour for selected menu-items
 DMENU_SB="#3498db"
