@@ -6,16 +6,16 @@
 DMENU_FN="monospace-10:Bold"
 
 ## background colour for unselected menu-items
-DMENU_NB="#121212"
+DMENU_NB="#14161b"
 
 ## textcolour for unselected menu-items
-DMENU_NF="#909090"
+DMENU_NF="#3498db"
 
 ## background colour for selected menu-items
-DMENU_SB="#909090"
+DMENU_SB="#3498db"
 
 ## textcolour for selected menu-items
-DMENU_SF="#121212"
+DMENU_SF="#14161b"
 
 ## command for the terminal application to be used:
 TERMINAL_CMD="terminal -e"
