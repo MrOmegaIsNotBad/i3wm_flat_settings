@@ -4,11 +4,15 @@ set tabstop=4
 set encoding=utf-8
 set noswapfile
 set cmdheight=1
+set autoindent
+set shiftwidth=4
+set smarttab
+set softtabstop=4
+set mouse=a
 
-colorscheme tropikos
+"colorscheme tropikos
 
 syntax on
-set mouse=a
 vmap <C-c> "+y
 vmap <Tab> >gv
 vmap <S-Tab> <gv
