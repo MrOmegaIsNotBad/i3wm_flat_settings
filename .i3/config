@@ -185,34 +185,8 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 # assign [class="Skype"] $ws5
 
 # Open specific applications in floating mode
-for_window [title="alsamixer"] floating enable
-for_window [class="Calamares"] floating enable
-for_window [class="Clipgrab"] floating enable
-for_window [title="File Transfer*"] floating enable
-for_window [class="Galculator"] floating enable
-for_window [class="GParted"] floating enable
-for_window [title="i3_help"] floating enable sticky enable border normal
-for_window [class="Lightdm-gtk-greeter-settings"] floating enable
-for_window [class="Lxappearance"] floating enable sticky enable
-for_window [class="Manjaro Settings Manager"] floating enable
-for_window [class="Manjaro Welcome"] floating enable
-for_window [title="MuseScore: Play Panel"] floating enable
-for_window [class="Nitrogen"] floating enable sticky enable
-for_window [class="Oblogout"] fullscreen enable
-for_window [class="octopi"] floating enable
-for_window [class="Pamac-manager"] floating enable
-for_window [class="Pavucontrol"] floating enable
-for_window [class="qt5ct"] floating enable sticky enable
-for_window [class="Qtconfig-qt4"] floating enable sticky enable
-for_window [class="Simple-scan"] floating enable
-for_window [class="(?i)System-config-printer.py"] floating enable
-for_window [class="Skype"] floating enable
-for_window [class="Thus"] floating enable
-for_window [class="Timeset-gui"] floating enable
-#for_window [class="(?i)virtualbox"] floating enable
-for_window [class="Xfburn"] floating enable
-for_window [class="Viewnior"] floating enable
-for_window [class="skypeforlinux"] floating enable border none
+#for_window [title="alsamixer"] floating enable
+
 # switch to workspace with urgent window automatically
 
 bindsym $mod+F8 sticky enable
@@ -233,41 +207,41 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 bindsym $mod+0 mode "$mode_system"
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
 mode "$mode_system" {
-    bindsym l exec --no-startup-id i3exit lock, mode "default"
-    bindsym s exec --no-startup-id i3exit suspend, mode "default"
-    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
-    bindsym e exec --no-startup-id i3exit logout, mode "default"
-    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
-    bindsym r exec --no-startup-id i3exit reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+	bindsym l exec --no-startup-id i3exit lock, mode "default"
+	bindsym s exec --no-startup-id i3exit suspend, mode "default"
+	bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+	bindsym e exec --no-startup-id i3exit logout, mode "default"
+	bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+	bindsym r exec --no-startup-id i3exit reboot, mode "default"
+	bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
 
-    # exit system mode: "Enter" or "Escape"
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
+	# exit system mode: "Enter" or "Escape"
+	bindsym Return mode "default"
+	bindsym Escape mode "default"
 }
 
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 5 px or 5 ppt
-        bindsym k resize grow height 5 px or 5 ppt
-        bindsym l resize shrink height 5 px or 5 ppt
-        bindsym h resize grow width 5 px or 5 ppt
+		# These bindings trigger as soon as you enter the resize mode
+		# Pressing left will shrink the window’s width.
+		# Pressing right will grow the window’s width.
+		# Pressing up will shrink the window’s height.
+		# Pressing down will grow the window’s height.
+		bindsym j resize shrink width 5 px or 5 ppt
+		bindsym k resize grow height 5 px or 5 ppt
+		bindsym l resize shrink height 5 px or 5 ppt
+		bindsym h resize grow width 5 px or 5 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 8 px or 8 ppt
-        bindsym Down resize grow height 8 px or 8 ppt
-        bindsym Up resize shrink height 8 px or 8 ppt
-        bindsym Right resize grow width 8 px or 8 ppt
+		# same bindings, but for the arrow keys
+		bindsym Left resize shrink width 8 px or 8 ppt
+		bindsym Down resize grow height 8 px or 8 ppt
+		bindsym Up resize shrink height 8 px or 8 ppt
+		bindsym Right resize grow width 8 px or 8 ppt
 
-        # exit resize mode: Enter or Escape
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+		# exit resize mode: Enter or Escape
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
 }
 
 # Lock screen
@@ -344,18 +318,18 @@ bar {
 	#font xft:URWGothic-Book 10
 	strip_workspace_numbers yes
 
-    colors {
-        background #14161b
-        statusline #3498db
-        separator  #14161b
+	colors {
+		background #14161b
+		statusline #3498db
+		separator  #14161b
 
 #                     border  backgr. text
-        focused_workspace  #3498db #3498db #14161b
-        active_workspace   #3498db #14161b #3498db
-        inactive_workspace #14161b #14161b #3498db
-        binding_mode       #3498db #14161b #3498db
-        urgent_workspace   #3498db #14161b #3498db
-    }
+		focused_workspace  #3498db #3498db #14161b
+		active_workspace   #3498db #14161b #3498db
+		inactive_workspace #14161b #14161b #3498db
+		binding_mode       #3498db #14161b #3498db
+		urgent_workspace   #3498db #14161b #3498db
+	}
 }
 
 
@@ -363,15 +337,15 @@ bar {
 bindsym $mod+m bar mode toggle
 
 # Theme colors
-# class                 border  	backgr. 	text    	indic.  	child_border
+# class                 border backgr. text indic. child_border
 # My colors
 client.background	#14161b
 
-client.focused         	#СССССС	   #14161b 	  #a8aeb1	  #a8aeb1 	#3498db
-client.unfocused        #494949		 #14161b 	  #a8aeb1	  #494949 	#292c36
-client.focused_inactive	#494949		 #14161b 	  #a8aeb1	  #494949 	#292c36
-client.urgent	  	      #494949	   #14161b 	  #a8aeb1   #494949 	#292c36
-client.placeholder	    #494949		 #14161b	  #a8aeb1	  #494949 	#292c36
+client.focused          #3498DB #3498DB #1B1D24 #a8aeb1 #3498db
+client.unfocused        #1B1D24 #14161b #a8aeb1 #1B1D24 #292c36
+client.focused_inactive #3498DB #3498DB #1B1D24 #1B1D24 #292c36
+client.urgent           #1B1D24 #14161b #a8aeb1 #1B1D24 #292c36
+client.placeholder      #1B1D24 #14161b #a8aeb1 #1B1D24 #292c36
 
 
 #############################
@@ -402,34 +376,34 @@ set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
 bindsym $mod+Shift+g mode "$mode_gaps"
 
 mode "$mode_gaps" {
-        bindsym o      mode "$mode_gaps_outer"
-        bindsym i      mode "$mode_gaps_inner"
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+		bindsym o      mode "$mode_gaps_outer"
+		bindsym i      mode "$mode_gaps_inner"
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
 }
 mode "$mode_gaps_inner" {
-        bindsym plus  gaps inner current plus 5
-        bindsym minus gaps inner current minus 5
-        bindsym 0     gaps inner current set 0
+		bindsym plus  gaps inner current plus 5
+		bindsym minus gaps inner current minus 5
+		bindsym 0     gaps inner current set 0
 
-        bindsym Shift+plus  gaps inner all plus 5
-        bindsym Shift+minus gaps inner all minus 5
-        bindsym Shift+0     gaps inner all set 0
+		bindsym Shift+plus  gaps inner all plus 5
+		bindsym Shift+minus gaps inner all minus 5
+		bindsym Shift+0     gaps inner all set 0
 
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
 }
 mode "$mode_gaps_outer" {
-        bindsym plus  gaps outer current plus 5
-        bindsym minus gaps outer current minus 5
-        bindsym 0     gaps outer current set 0
+		bindsym plus  gaps outer current plus 5
+		bindsym minus gaps outer current minus 5
+		bindsym 0     gaps outer current set 0
 
-        bindsym Shift+plus  gaps outer all plus 5
-        bindsym Shift+minus gaps outer all minus 5
-        bindsym Shift+0     gaps outer all set 0
+		bindsym Shift+plus  gaps outer all plus 5
+		bindsym Shift+minus gaps outer all minus 5
+		bindsym Shift+0     gaps outer all set 0
 
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
 }
 
 #for_window [class=^.*] floating enable
