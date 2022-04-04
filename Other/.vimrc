@@ -10,7 +10,7 @@ set smarttab
 set softtabstop=4
 set mouse=a
 
-colorscheme elflord
+colorscheme ron
 syntax on
 vmap <C-c> "+y
 vmap <Tab> >gv
