@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
-let g:netrw_dirhist_5='/home/mromegaisnotbad/.config/dunst'
-let g:netrw_dirhist_4='/etc/pacman.d'
-let g:netrw_dirhist_3='/home/mromegaisnotbad/.config/dunst'
-let g:netrw_dirhist_2='/home/mromegaisnotbad/.i3wmSetting/themes/black_pixel_bottom_border'
-let g:netrw_dirhist_1='/home/mromegaisnotbad/.config/dunst'
