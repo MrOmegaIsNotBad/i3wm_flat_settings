@@ -10,7 +10,7 @@ set smarttab
 set softtabstop=4
 set mouse=a
 
-"colorscheme tropikos
+colorscheme tropikos
 
 syntax on
 vmap <C-c> "+y

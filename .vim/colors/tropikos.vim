@@ -5,7 +5,7 @@
 " License:      Beer Ware
 " ----------------------------------------------------------------------------
 
-let g:colors_name = "tropikos" 
+let g:colors_name = "tropikos"
 
 highlight clear Normal
 set background=dark
@@ -15,8 +15,8 @@ if exists("syntax_on")
   syntax reset
 endif
 
-hi Normal               cterm=none ctermbg=none     ctermfg=145     gui=none        guibg=#202020   guifg=#AFAFAF
-hi LineNr               cterm=none ctermbg=none     ctermfg=59      gui=none        guibg=#202020   guifg=#5F5F5F
+hi Normal               cterm=none ctermbg=none     ctermfg=7     gui=none        guibg=#202020   guifg=#AFAFAF
+hi LineNr               cterm=none ctermbg=none     ctermfg=247      gui=none        guibg=#202020   guifg=#5F5F5F
 hi StatusLine           cterm=none ctermbg=59       ctermfg=15      gui=none        guibg=#5F5F5F   guifg=#FFFFFF
 hi StatusLineNC         cterm=none ctermbg=59       ctermfg=15      gui=none        guibg=#5F5F5F   guifg=#FFFFFF
 hi Search               cterm=none ctermbg=59       ctermfg=145     gui=none        guibg=#5F5F5F   guifg=#AFAFAF
@@ -44,29 +44,29 @@ hi DiffDelete           cterm=bold ctermbg=1        ctermfg=15
 hi DiffText             cterm=bold ctermbg=3        ctermfg=8
 hi MatchParen           cterm=none ctermbg=59       ctermfg=145     gui=none        guibg=#5F5F5F   guifg=#AFAFAF
 hi CursorLine           cterm=none ctermbg=238      ctermfg=none    gui=none        guibg=#424242
-hi Title                cterm=none ctermbg=none     ctermfg=139     gui=none                        guifg=#AF87AF
+hi Title                cterm=none ctermbg=none     ctermfg=3     gui=none                        guifg=#AF87AF
 
 " ----------------------------------------------------------------------------
 " Syntax Highlighting
 " ----------------------------------------------------------------------------
-hi Keyword              cterm=none ctermbg=none ctermfg=167         gui=none        guifg=#DF5F5F
-hi Comment              cterm=none ctermbg=none ctermfg=59          gui=none        guifg=#5F5F5F
+hi Keyword              cterm=none ctermbg=none ctermfg=13         gui=none        guifg=#c678dd
+hi Comment              cterm=italic ctermbg=none ctermfg=247       gui=none       guifg=#5F5F5F
 hi Delimiter            cterm=none ctermbg=none ctermfg=145         gui=none        guifg=#AFAFAF
-hi Identifier           cterm=none ctermbg=none ctermfg=139         gui=none        guifg=#AF87AF
-hi Structure            cterm=none ctermbg=none ctermfg=139         gui=none        guifg=#AF87AF
+hi Identifier           cterm=bold ctermbg=none ctermfg=3         gui=none        guifg=#AF87AF
+hi Structure            cterm=bold ctermbg=none ctermfg=3         gui=none        guifg=#AF87AF
 hi Ignore               cterm=none ctermbg=none ctermfg=59          gui=none        guifg=bg
-hi Constant             cterm=none ctermbg=none ctermfg=139         gui=none        guifg=#AF87AF
-hi PreProc              cterm=none ctermbg=none ctermfg=167         gui=none        guifg=#DF5F5F
-hi Type                 cterm=none ctermbg=none ctermfg=139         gui=none        guifg=#AF87AF
-hi Statement            cterm=none ctermbg=none ctermfg=167         gui=none        guifg=#DF5F5F
+hi Constant             cterm=none ctermbg=none ctermfg=3         gui=none        guifg=#AF87AF
+hi PreProc              cterm=bold ctermbg=none ctermfg=13         gui=none        guifg=#c678dd
+hi Type                 cterm=bold ctermbg=none ctermfg=3         gui=none        guifg=#AF87AF
+hi Statement            cterm=bold ctermbg=none ctermfg=13         gui=none        guifg=#c678dd
 hi Special              cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#d7d7d7
-hi String               cterm=none ctermbg=none ctermfg=107         gui=italic      guifg=#87AF5F
-hi Number               cterm=none ctermbg=none ctermfg=107         gui=none        guifg=#87AF5F
-hi Underlined           cterm=underline         ctermfg=139         gui=underline   guifg=#AF87AF
-hi Symbol               cterm=none ctermbg=none ctermfg=180         gui=none        guifg=#DFAF87
-hi Method               cterm=none ctermbg=none ctermfg=180         gui=none        guifg=#DFAF87
-hi Interpolation        cterm=none ctermbg=none ctermfg=180         gui=none        guifg=#DFAF87
-hi StorageClass         cterm=none ctermbg=none ctermfg=180         gui=none        guifg=#DFAF87
+hi String               cterm=none ctermbg=none ctermfg=10         gui=italic      guifg=#87AF5F
+hi Number               cterm=none ctermbg=none ctermfg=3         gui=none        guifg=#87AF5F
+hi Underlined           cterm=underline         ctermfg=3         gui=underline   guifg=#AF87AF
+hi Symbol               cterm=none ctermbg=none ctermfg=14         gui=none        guifg=#DFAF87
+hi Method               cterm=bold ctermbg=none ctermfg=14         gui=none        guifg=#DFAF87
+hi Interpolation        cterm=bold ctermbg=none ctermfg=14         gui=none        guifg=#DFAF87
+hi StorageClass         cterm=bold ctermbg=none ctermfg=14         gui=none        guifg=#DFAF87
 
 " Python
 hi link pythonFunction              Method
