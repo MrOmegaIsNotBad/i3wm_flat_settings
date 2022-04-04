@@ -16,7 +16,7 @@ if exists("syntax_on")
 endif
 
 hi Normal               cterm=none ctermbg=none     ctermfg=7     gui=none        guibg=#202020   guifg=#AFAFAF
-hi LineNr               cterm=none ctermbg=none     ctermfg=247      gui=none        guibg=#202020   guifg=#5F5F5F
+hi LineNr               cterm=none ctermbg=0     ctermfg=247      gui=none        guibg=#202020   guifg=#5F5F5F
 hi StatusLine           cterm=none ctermbg=59       ctermfg=15      gui=none        guibg=#5F5F5F   guifg=#FFFFFF
 hi StatusLineNC         cterm=none ctermbg=59       ctermfg=15      gui=none        guibg=#5F5F5F   guifg=#FFFFFF
 hi Search               cterm=none ctermbg=59       ctermfg=145     gui=none        guibg=#5F5F5F   guifg=#AFAFAF
