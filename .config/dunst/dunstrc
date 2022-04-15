@@ -1,6 +1,7 @@
 [global]
     frame_width = 2
     frame_color = "#363947"
+	#corner_radius = 10
 
     font = monospace bold 10
 
@@ -35,6 +36,7 @@
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
     alignment = left
+	width = (0, 500)
 
 
     # The frequency with wich text that is longer than the notification
