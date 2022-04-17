@@ -57,7 +57,8 @@ bindsym $mod+F1 exec librewolf
 bindsym $mod+F2 exec thunar
 #bindsym $mod+F2 exec xfce4-terminal -e 'ranger'
 #bindsym $mod+Shift+F3 exec gksu pcmanfm
-bindsym $mod+F3 exec xfce4-terminal -e 'vlc -I ncurses --no-video /home/mromegaisnotbad/HomeFolders/Music'
+#bindsym $mod+F3 exec xfce4-terminal -e 'vlc -I ncurses --no-video /home/mromegaisnotbad/HomeFolders/Music'
+bindsym $mod+F3 exec xfce4-terminal -e 'cmus'
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom --experimental-backends
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
@@ -320,15 +321,15 @@ bar {
 
 	colors {
 		background #14161b
-		statusline #3498db
+		statusline #4badff
 		separator  #14161b
 
 #                     border  backgr. text
-		focused_workspace  #3498db #3498db #14161b
-		active_workspace   #3498db #14161b #3498db
-		inactive_workspace #14161b #14161b #3498db
-		binding_mode       #3498db #14161b #3498db
-		urgent_workspace   #3498db #14161b #3498db
+		focused_workspace  #4badff #4badff  #14161b
+		active_workspace   #4badff #14161b #4badff 
+		inactive_workspace #14161b #14161b #4badff
+		binding_mode       #4badff #14161b #4badff 
+		urgent_workspace   #4badff #14161b #4badff 
 	}
 }
 
@@ -341,9 +342,9 @@ bindsym $mod+m bar mode toggle
 # My colors
 client.background	#14161b
 
-client.focused          #2a2d38 #3498DB #1B1D24 #3498DB #3498db
+client.focused          #2a2d38 #4badff #1B1D24 #4badff #4badff
 client.unfocused        #1B1D24 #14161b #a8aeb1 #1B1D24 #363947
-client.focused_inactive #2a2d38 #3498DB #1B1D24 #1B1D24 #363947
+client.focused_inactive #2a2d38 #4badff #1B1D24 #1B1D24 #363947
 client.urgent           #1B1D24 #14161b #a8aeb1 #1B1D24 #363947
 client.placeholder      #1B1D24 #14161b #a8aeb1 #1B1D24 #363947
 
