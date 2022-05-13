@@ -19,7 +19,7 @@ order += "memory"
 order += "tztime local"
 
 battery 0 {
-    format = "[  %percentage ]"
+    format = "[ Battery: %percentage ]"
     path = "/sys/class/power_supply/BAT%d/uevent"
     low_threshold = "30"
     threshold_type = "time"
@@ -28,7 +28,7 @@ battery 0 {
 }
 
 cpu_usage {
-	format = "[ 🖾 %usage ]"
+	format = "[ CPU: %usage ]"
 }
 
 wireless _first_ {
@@ -42,7 +42,7 @@ ethernet _first_ {
 }
 
 disk "/" {
-        format = "[ 🖿 %avail ]"
+        format = "[ Disk: %avail ]"
 }
 
 load {
@@ -50,12 +50,11 @@ load {
 }
 
 memory {
-        format = "[ 🖭 %used ]"
+        format = "[ Memory: %used ]"
         threshold_degraded = "1G"
-        format_degraded = "[ 🖭 MEMORY < %available ]"
+        format_degraded = "[ Memory < %available ]"
 }
-#                                                                                         F   
 tztime local {                       
-		format = "[ 🗓 %d.%m.%Y 🕗 %H:%M:%S ]"
+		format = "[ Date: %d.%m.%Y ] [ Time: %H:%M:%S ]"
 		min_width = 100%
 }

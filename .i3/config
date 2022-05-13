@@ -246,7 +246,7 @@ mode "resize" {
 }
 
 # Lock screen
-bindsym $mod+9 exec --no-startup-id blurlock
+bindsym $mod+9 exec --no-startup-id i3lock-fancy
 
 # Autostart applications
 exec --no-startup-id redshift -l 48:28
@@ -342,7 +342,7 @@ bindsym $mod+m bar mode toggle
 # My colors
 client.background	#14161b
 
-client.focused          #2a2d38 #4badff #1B1D24 #4badff #4badff
+client.focused          #2a2d38 #4badff #1B1D24 #4badff #4badff 
 client.unfocused        #1B1D24 #14161b #a8aeb1 #1B1D24 #363947
 client.focused_inactive #2a2d38 #4badff #1B1D24 #363947 #363947
 client.urgent           #1B1D24 #14161b #a8aeb1 #1B1D24 #363947
